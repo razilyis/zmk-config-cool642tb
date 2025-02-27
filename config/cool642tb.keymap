@@ -1,6 +1,5 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
 #define SCROLL 5
@@ -77,10 +76,10 @@
 
         FUNCTION {
             bindings = <
-&kp N1           &kp N2       &kp N3        &kp N4      &kp N5                           &kp N6         &kp N7        &kp N8                &kp N9                 &kp N0
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR  &kp PERCENT  &mo 0     &kp N2    &kp AMPERSAND  &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp PLUS         &kp MINUS    &kp ASTERISK  &kp SLASH   &kp EQUAL    &kp N3    &kp N4    &kp TILDE      &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
-&kp SLASH        &kp RSHIFT   &kp LCTRL     &kp LGUI    &kp LALT     &mkp MB1  &mkp MB2  &kp N6                                                                    &lt 2 SPACE
+&kp N1           &kp N2       &kp N3        &kp N4      &kp N5                          &kp N6         &kp N7        &kp N8                &kp N9                 &kp N0
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR  &kp PERCENT  &mo 0   &kp N2     &kp AMPERSAND  &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp PLUS         &kp MINUS    &kp ASTERISK  &kp SLASH   &kp EQUAL    &kp N3  &kp N4     &kp TILDE      &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
+&kp SLASH        &kp RSHIFT   &kp LCTRL     &kp LGUI    &kp LALT     &kp N3  &kp MINUS  &kp N6                                                                    &lt 2 SPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
