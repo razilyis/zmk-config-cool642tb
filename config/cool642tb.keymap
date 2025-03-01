@@ -113,7 +113,7 @@
 &kp Q       &kp W      &kp E     &kp R     &kp T                       &kp Y        &kp U  &kp I     &kp O     &kp P
 &kp A       &kp S      &kp D     &kp F     &kp G     &kp N1    &kp N2  &kp H        &kp J  &kp K     &kp L     &kp ENTER
 &kp Z       &kp X      &kp C     &kp V     &kp B     &kp N3    &kp N4  &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &mkp MB1  &mkp MB2  &kp N6  &lt 2 SPACE                             &kp BSPC
+&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE           &lt 2 SPACE            &kp BACKSPACE                                &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
