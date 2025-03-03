@@ -84,7 +84,7 @@
 &bt BT_PRV       &bt BT_NXT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none             &kp MINUS          &bt BT_CLR_ALL                                                             &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         NUM {
