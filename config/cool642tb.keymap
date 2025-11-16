@@ -113,7 +113,7 @@
 
         SETTING {
             bindings = <
-&kp Q       &kp W    &kp E             &kp R         &kp T                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans      &trans   &kp E             &kp R         &kp T                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &kp A       &kp S    &kp D             &kp F         &kp G     &kp N1    &trans  &trans        &trans        &trans        &trans        &trans
 &kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3    &trans  &trans        &trans        &trans        &trans        &bt BT_CLR
 &kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &trans  &trans                                                  &bt BT_CLR_ALL
