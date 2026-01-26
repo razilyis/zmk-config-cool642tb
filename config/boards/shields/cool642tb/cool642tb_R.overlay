@@ -83,29 +83,24 @@
  * Input listener (root node)
  * ------------------------------------------------- */
 
- / {
+/ {
     cirque_central_listener: cirque_central_listener {
-        compatible = "zmk,input-listener"; 
+        compatible = "zmk,input-listener";
         status = "okay";
         device = <&cirque>;
 
         input-processors = <
-          &zip_xy_transform (INPUT_TRANSFORM_X_INVERT)
-          &zip_xy_scaler 2 1
+            &zip_xy_transform INPUT_TRANSFORM_X_INVERT
+            &zip_xy_scaler 2 1
         >;
 
-        /* スクロールレイヤー*/
         scroller {
             layers = <3 7>;
-
-            /* 1) 左右反転 → 2) XYをスクロールへ変換 → 3) スクロール速度調整 */
             input-processors = <
-                &zip_xy_transform (INPUT_TRANSFORM_X_INVERT)
+                &zip_xy_transform INPUT_TRANSFORM_X_INVERT
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_scaler 1 10
             >;
         };
-
-
     };
 };
