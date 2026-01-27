@@ -63,7 +63,7 @@
     pinctrl-names = "default", "sleep";
 
     /* TM035035 SS -> P0.09 */
-　　cs-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW)>;
+    cs-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW)>;
 
     cirque: pinnacle@0 {
         status = "okay";
