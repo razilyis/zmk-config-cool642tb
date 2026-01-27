@@ -16,6 +16,7 @@
         <&gpio0 10  (GPIO_ACTIVE_HIGH)>;
 };
 
+/* 
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -38,12 +39,13 @@
         };
     };
 };
+*/
 
 &spi0 {
     status = "okay";
-    pinctrl-0 = <&spi0_default>;
-    pinctrl-1 = <&spi0_sleep>;
-    pinctrl-names = "default", "sleep";
+    /* pinctrl-0 = <&spi0_default>; */
+    /* pinctrl-1 = <&spi0_sleep>; */
+    /* pinctrl-names = "default", "sleep"; */
 
     cs-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW)>;
 
