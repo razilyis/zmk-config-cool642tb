@@ -17,7 +17,8 @@
         <&xiao_d 9  (GPIO_ACTIVE_HIGH)>,
         <&xiao_d 8  (GPIO_ACTIVE_HIGH)>,
         <&xiao_d 7  (GPIO_ACTIVE_HIGH)>,
-        <&gpio0 10  (GPIO_ACTIVE_HIGH)>;
+        <&gpio0 10  (GPIO_ACTIVE_HIGH)>
+        ;
 };
 
 /* -------------------------------------------------
@@ -63,7 +64,7 @@
     pinctrl-names = "default", "sleep";
 
     /* TM035035 SS -> P0.09 */
-    cs-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW)>;
+    cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
 
     cirque: pinnacle@0 {
         status = "okay";
@@ -82,24 +83,29 @@
  * Input listener (root node)
  * ------------------------------------------------- */
 
-/ {
+ / {
     cirque_central_listener: cirque_central_listener {
-        compatible = "zmk,input-listener";
+        compatible = "zmk,input-listener"; 
         status = "okay";
         device = <&cirque>;
 
         input-processors = <
-            &zip_xy_transform INPUT_TRANSFORM_X_INVERT
-            &zip_xy_scaler 2 1
+          &zip_xy_transform (INPUT_TRANSFORM_X_INVERT)
+          &zip_xy_scaler 2 1
         >;
 
+        /* スクロールレイヤー*/
         scroller {
             layers = <3 7>;
+
+            /* 1) 左右反転 → 2) XYをスクロールへ変換 → 3) スクロール速度調整 */
             input-processors = <
-                &zip_xy_transform INPUT_TRANSFORM_X_INVERT
+                &zip_xy_transform (INPUT_TRANSFORM_X_INVERT)
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_scaler 1 10
             >;
         };
+
+
     };
 };
