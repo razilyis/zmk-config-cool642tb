@@ -1,2 +1,0 @@
-# Load Zephyr board defconfig descriptions.
-osource "/Users/ryosaitoh/Desktop/git/zephyr/boards/seeed/xiao_ble/Kconfig.defconfig"

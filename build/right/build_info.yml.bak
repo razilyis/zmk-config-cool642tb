@@ -1,5 +1,0 @@
-west:
-  command: /opt/homebrew/bin/west build -p always -b xiao_ble -d build/right -s ../zmk/app
-    -- -DSHIELD=cool642tb_R -DZMK_CONFIG=/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config
-  topdir: /Users/ryosaitoh/Desktop/git
-  version: 1.5.0

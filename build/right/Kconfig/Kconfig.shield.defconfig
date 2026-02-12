@@ -1,4 +1,0 @@
-osource "/Users/ryosaitoh/Desktop/git/zmk-rgbled-widget/boards/shields/*/Kconfig.defconfig"
-osource "/Users/ryosaitoh/Desktop/git/modules/prospector-zmk-module/boards/shields/*/Kconfig.defconfig"
-osource "/Users/ryosaitoh/Desktop/git/zmk/app/boards/shields/*/Kconfig.defconfig"
-osource "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config/boards/shields/*/Kconfig.defconfig"
