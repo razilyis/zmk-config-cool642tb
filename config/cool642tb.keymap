@@ -82,6 +82,7 @@
             tap-ms = <20>;
         };
 
+/*
         // Runtime Sensor Rotate 動作の定義
         rsr_vol: rsr_vol {
             compatible = "zmk,behavior-runtime-sensor-rotate";
@@ -97,6 +98,7 @@
             cw-binding = <&kp PG_UP>;
             ccw-binding = <&kp PG_DN>;
         };
+*/
     };
 
     keymap {
