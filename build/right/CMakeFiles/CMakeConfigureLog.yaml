@@ -1,0 +1,4133 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:28 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    name: "ZephyrBuildConfiguration"
+    configs:
+      -
+        filename: "ZephyrBuildConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrbuild-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrBuild"
+      search_paths:
+        - "/Users/ryosaitoh/Desktop/git/zephyr/../*"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-moNa2-v2/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-moNa2-v2/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-workspace/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-workspace/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/KBD-3D-Misc/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/KBD-3D-Misc/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-prospector/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-prospector/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-MKB/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-MKB/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-roBa/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-roBa/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyTB/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyTB/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-rgbled-widget/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-rgbled-widget/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyAAA/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyAAA/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-MoooseMini/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-MoooseMini/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-soa44-v2/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-soa44-v2/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-driver-iqs7211e/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-driver-iqs7211e/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundForty/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundForty/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyLB/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyLB/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/optional/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/optional/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyDB/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyDB/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/cirque-input-module/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/cirque-input-module/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver-b/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver-b/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-LisM/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-LisM/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/.west/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/.west/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver-wristball2/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver-wristball2/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/keyball/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/keyball/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/DisplayCard-Generator/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/DisplayCard-Generator/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/build/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/build/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-driver-paw3222/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-driver-paw3222/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/modules/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/modules/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyRB/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-AroundFortyRB/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-wristball2/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-wristball2/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/prospector-zmk-module/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/prospector-zmk-module/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zephyr/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zephyr/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zephyr/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zephyr/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-feature-non-lipo-battery-management/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-feature-non-lipo-battery-management/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/public-data/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/public-data/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-module-template-with-custom-studio-rpc/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-module-template-with-custom-studio-rpc/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:41 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    name: "ZephyrAppConfiguration"
+    configs:
+      -
+        filename: "ZephyrAppConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrapp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrApp"
+      search_paths:
+        - "/Users/ryosaitoh/Desktop/git/zmk/app"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk/app/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk/app/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/ccache.cmake:10 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/ccache"
+    found: "/opt/homebrew/bin/ccache"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindZephyr-sdk.cmake:100 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:53 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    name: "Zephyr-sdk"
+    components:
+      -
+        name: "LOAD"
+        required: false
+        found: false
+    configs:
+      -
+        filename: "Zephyr-sdkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-sdk-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "0.0.0"
+      version_complete: "0.0.0"
+      exact: true
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Zephyr-sdk"
+      search_paths:
+        - "/usr"
+        - "/usr/local"
+        - "/opt"
+        - "/Users/ryosaitoh"
+        - "/Users/ryosaitoh/.local"
+        - "/Users/ryosaitoh/.local/opt"
+        - "/Users/ryosaitoh/bin"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-0.16.5/cmake/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-0.16.5/cmake/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-0.16.5/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-0.16.5/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-0.16.5/cmake/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "/Users/ryosaitoh/zephyr-sdk-0.16.5/cmake/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/.local/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/.local/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:56 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "GPERF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gperf"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/gperf"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/gperf"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/gperf"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/gperf"
+    found: "/opt/homebrew/bin/gperf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:59 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "OPENOCD"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openocd"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/openocd"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/openocd"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/openocd"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/openocd"
+      - "/opt/homebrew/bin/openocd"
+      - "/opt/homebrew/sbin/openocd"
+      - "/usr/local/bin/openocd"
+      - "/System/Cryptexes/App/usr/bin/openocd"
+      - "/usr/bin/openocd"
+      - "/bin/openocd"
+      - "/usr/sbin/openocd"
+      - "/sbin/openocd"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/openocd"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/openocd"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/openocd"
+      - "/opt/pmk/env/global/bin/openocd"
+      - "/Library/Apple/usr/bin/openocd"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:62 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "BOSSAC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "bossac"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/bossac"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/bossac"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bossac"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/bossac"
+      - "/opt/homebrew/bin/bossac"
+      - "/opt/homebrew/sbin/bossac"
+      - "/usr/local/bin/bossac"
+      - "/System/Cryptexes/App/usr/bin/bossac"
+      - "/usr/bin/bossac"
+      - "/bin/bossac"
+      - "/usr/sbin/bossac"
+      - "/sbin/bossac"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/bossac"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/bossac"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/bossac"
+      - "/opt/pmk/env/global/bin/bossac"
+      - "/Library/Apple/usr/bin/bossac"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:67 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "IMGTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "imgtool.py"
+      - "imgtool"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/scripts/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/imgtool.py"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/imgtool"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/imgtool.py"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/imgtool"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/imgtool.py"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/imgtool"
+      - "/scripts/imgtool.py"
+      - "/scripts/imgtool"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/imgtool.py"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/imgtool"
+      - "/opt/homebrew/bin/imgtool.py"
+    found: "/opt/homebrew/bin/imgtool"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:70 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "PTY_INTERFACE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "winpty"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/winpty"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/winpty"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/winpty"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/winpty"
+      - "/opt/homebrew/bin/winpty"
+      - "/opt/homebrew/sbin/winpty"
+      - "/usr/local/bin/winpty"
+      - "/System/Cryptexes/App/usr/bin/winpty"
+      - "/usr/bin/winpty"
+      - "/bin/winpty"
+      - "/usr/sbin/winpty"
+      - "/sbin/winpty"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/winpty"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/winpty"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/winpty"
+      - "/opt/pmk/env/global/bin/winpty"
+      - "/Library/Apple/usr/bin/winpty"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/compiler/gcc/generic.cmake:5 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:115 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/compiler/gcc/generic.cmake:6 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindHostTools.cmake:115 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GCOV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindDtc.cmake:19 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/dts.cmake:10 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:134 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "DTC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dtc"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/dtc"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/dtc"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/dtc"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/dtc"
+    found: "/opt/homebrew/bin/dtc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/compiler/gcc/target.cmake:9 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/compiler/gcc/target.cmake:27 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:5 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:6 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:7 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AS"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:12 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:13 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:15 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:16 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:17 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:19 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GDB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/bintools/gnu/target.cmake:31 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GDB_NO_PY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/uname"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/uname"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/uname"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      The target system is: Generic - 4.1.0 - arm
+      The host system is: Darwin - 25.2.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/ninja-build"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/ninja"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/samu"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/ninja-build"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/ninja"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/samu"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/ninja-build"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/ninja"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/samu"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/ninja-build"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/ninja"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/samu"
+      - "/opt/homebrew/bin/ninja-build"
+    found: "/opt/homebrew/bin/ninja"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x34): undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-dlltool"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-dlltool"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-dlltool"
+      - "/usr/local/bin/arm-zephyr-eabi-dlltool"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-dlltool"
+      - "/usr/bin/arm-zephyr-eabi-dlltool"
+      - "/bin/arm-zephyr-eabi-dlltool"
+      - "/usr/sbin/arm-zephyr-eabi-dlltool"
+      - "/sbin/arm-zephyr-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-dlltool"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-dlltool"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-dlltool"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/dlltool"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-tapi"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-tapi"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-tapi"
+      - "/usr/local/bin/arm-zephyr-eabi-tapi"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-tapi"
+      - "/usr/bin/arm-zephyr-eabi-tapi"
+      - "/bin/arm-zephyr-eabi-tapi"
+      - "/usr/sbin/arm-zephyr-eabi-tapi"
+      - "/sbin/arm-zephyr-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-tapi"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-tapi"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-tapi"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/tapi"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-gcc-ar-12.2"
+      - "arm-zephyr-eabi-gcc-ar-12"
+      - "arm-zephyr-eabi-gcc-ar12"
+      - "arm-zephyr-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/sbin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar-12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar-12"
+      - "/sbin/arm-zephyr-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar12"
+      - "/sbin/arm-zephyr-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar12"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "arm-zephyr-eabi-gcc-ranlib-12"
+      - "arm-zephyr-eabi-gcc-ranlib12"
+      - "arm-zephyr-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x34): undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/4.2.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-gcc-ar-12.2"
+      - "arm-zephyr-eabi-gcc-ar-12"
+      - "arm-zephyr-eabi-gcc-ar12"
+      - "arm-zephyr-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/sbin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar-12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar-12"
+      - "/sbin/arm-zephyr-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar12"
+      - "/sbin/arm-zephyr-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar12"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "arm-zephyr-eabi-gcc-ranlib-12"
+      - "arm-zephyr-eabi-gcc-ranlib12"
+      - "arm-zephyr-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib12"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-zephyr-eabi-gcc (Zephyr SDK 0.16.5) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-gcc-ar-"
+      - "arm-zephyr-eabi-gcc-ar-"
+      - "arm-zephyr-eabi-gcc-ar"
+      - "arm-zephyr-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar-"
+      - "/sbin/arm-zephyr-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ar-"
+      - "/sbin/arm-zephyr-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ar-"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ar-"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/modules/zephyr_default.cmake:143 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-zephyr-eabi-gcc-ranlib-"
+      - "arm-zephyr-eabi-gcc-ranlib-"
+      - "arm-zephyr-eabi-gcc-ranlib"
+      - "arm-zephyr-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/opt/homebrew/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/opt/homebrew/sbin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/sbin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/opt/pmk/env/global/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/arm-zephyr-eabi-gcc-ranlib-"
+    found: "/Users/ryosaitoh/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/picolibc/CMakeLists.txt:49 (find_program)"
+    mode: "program"
+    variable: "CCACHE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/ccache"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/ccache"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/ccache"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/ccache"
+    found: "/opt/homebrew/bin/ccache"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/reports/CMakeLists.txt:87 (find_program)"
+    mode: "program"
+    variable: "PUNCOVER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "puncover"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/puncover"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/puncover"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/puncover"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/puncover"
+      - "/opt/homebrew/bin/puncover"
+      - "/opt/homebrew/sbin/puncover"
+      - "/usr/local/bin/puncover"
+      - "/System/Cryptexes/App/usr/bin/puncover"
+      - "/usr/bin/puncover"
+      - "/bin/puncover"
+      - "/usr/sbin/puncover"
+      - "/sbin/puncover"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/puncover"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/puncover"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/puncover"
+      - "/opt/pmk/env/global/bin/puncover"
+      - "/Library/Apple/usr/bin/puncover"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/zephyr/cmake/reports/CMakeLists.txt:104 (find_program)"
+    mode: "program"
+    variable: "PAHOLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pahole"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/bin/pahole"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/sbin/pahole"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pahole"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pahole"
+      - "/opt/homebrew/bin/pahole"
+      - "/opt/homebrew/sbin/pahole"
+      - "/usr/local/bin/pahole"
+      - "/System/Cryptexes/App/usr/bin/pahole"
+      - "/usr/bin/pahole"
+      - "/bin/pahole"
+      - "/usr/sbin/pahole"
+      - "/sbin/pahole"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pahole"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pahole"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pahole"
+      - "/opt/pmk/env/global/bin/pahole"
+      - "/Library/Apple/usr/bin/pahole"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:9 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "../zephyr"
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/build/right/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/Users/ryosaitoh/Desktop/git/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+      mode: "config"
+      version: "4.1.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:381 (find_path)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "path"
+    variable: "NANOPB_INCLUDE_DIRS"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb.h"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb.h"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb.h"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb.h"
+      - "/opt/homebrew/bin/pb.h"
+      - "/opt/homebrew/sbin/pb.h"
+      - "/usr/local/bin/pb.h"
+      - "/System/Cryptexes/App/usr/bin/pb.h"
+      - "/usr/bin/pb.h"
+      - "/bin/pb.h"
+      - "/usr/sbin/pb.h"
+      - "/sbin/pb.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb.h"
+      - "/opt/pmk/env/global/bin/pb.h"
+      - "/Library/Apple/usr/bin/pb.h"
+      - "/include/pb.h"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:395 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb_decode.c__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb_decode.c"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb_decode.c"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb_decode.c"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb_decode.c"
+      - "/opt/homebrew/bin/pb_decode.c"
+      - "/opt/homebrew/sbin/pb_decode.c"
+      - "/usr/local/bin/pb_decode.c"
+      - "/System/Cryptexes/App/usr/bin/pb_decode.c"
+      - "/usr/bin/pb_decode.c"
+      - "/bin/pb_decode.c"
+      - "/usr/sbin/pb_decode.c"
+      - "/sbin/pb_decode.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb_decode.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb_decode.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb_decode.c"
+      - "/opt/pmk/env/global/bin/pb_decode.c"
+      - "/Library/Apple/usr/bin/pb_decode.c"
+      - "/include/pb_decode.c"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb_decode.c"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:395 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb_encode.c__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb_encode.c"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb_encode.c"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb_encode.c"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb_encode.c"
+      - "/opt/homebrew/bin/pb_encode.c"
+      - "/opt/homebrew/sbin/pb_encode.c"
+      - "/usr/local/bin/pb_encode.c"
+      - "/System/Cryptexes/App/usr/bin/pb_encode.c"
+      - "/usr/bin/pb_encode.c"
+      - "/bin/pb_encode.c"
+      - "/usr/sbin/pb_encode.c"
+      - "/sbin/pb_encode.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb_encode.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb_encode.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb_encode.c"
+      - "/opt/pmk/env/global/bin/pb_encode.c"
+      - "/Library/Apple/usr/bin/pb_encode.c"
+      - "/include/pb_encode.c"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb_encode.c"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:395 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb_common.c__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb_common.c"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb_common.c"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb_common.c"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb_common.c"
+      - "/opt/homebrew/bin/pb_common.c"
+      - "/opt/homebrew/sbin/pb_common.c"
+      - "/usr/local/bin/pb_common.c"
+      - "/System/Cryptexes/App/usr/bin/pb_common.c"
+      - "/usr/bin/pb_common.c"
+      - "/bin/pb_common.c"
+      - "/usr/sbin/pb_common.c"
+      - "/sbin/pb_common.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb_common.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb_common.c"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb_common.c"
+      - "/opt/pmk/env/global/bin/pb_common.c"
+      - "/Library/Apple/usr/bin/pb_common.c"
+      - "/include/pb_common.c"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb_common.c"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:401 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb_decode.h__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb_decode.h"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb_decode.h"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb_decode.h"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb_decode.h"
+      - "/opt/homebrew/bin/pb_decode.h"
+      - "/opt/homebrew/sbin/pb_decode.h"
+      - "/usr/local/bin/pb_decode.h"
+      - "/System/Cryptexes/App/usr/bin/pb_decode.h"
+      - "/usr/bin/pb_decode.h"
+      - "/bin/pb_decode.h"
+      - "/usr/sbin/pb_decode.h"
+      - "/sbin/pb_decode.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb_decode.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb_decode.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb_decode.h"
+      - "/opt/pmk/env/global/bin/pb_decode.h"
+      - "/Library/Apple/usr/bin/pb_decode.h"
+      - "/include/pb_decode.h"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb_decode.h"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:401 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb_encode.h__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb_encode.h"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb_encode.h"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb_encode.h"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb_encode.h"
+      - "/opt/homebrew/bin/pb_encode.h"
+      - "/opt/homebrew/sbin/pb_encode.h"
+      - "/usr/local/bin/pb_encode.h"
+      - "/System/Cryptexes/App/usr/bin/pb_encode.h"
+      - "/usr/bin/pb_encode.h"
+      - "/bin/pb_encode.h"
+      - "/usr/sbin/pb_encode.h"
+      - "/sbin/pb_encode.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb_encode.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb_encode.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb_encode.h"
+      - "/opt/pmk/env/global/bin/pb_encode.h"
+      - "/Library/Apple/usr/bin/pb_encode.h"
+      - "/include/pb_encode.h"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb_encode.h"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:401 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb_common.h__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb_common.h"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb_common.h"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb_common.h"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb_common.h"
+      - "/opt/homebrew/bin/pb_common.h"
+      - "/opt/homebrew/sbin/pb_common.h"
+      - "/usr/local/bin/pb_common.h"
+      - "/System/Cryptexes/App/usr/bin/pb_common.h"
+      - "/usr/bin/pb_common.h"
+      - "/bin/pb_common.h"
+      - "/usr/sbin/pb_common.h"
+      - "/sbin/pb_common.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb_common.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb_common.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb_common.h"
+      - "/opt/pmk/env/global/bin/pb_common.h"
+      - "/Library/Apple/usr/bin/pb_common.h"
+      - "/include/pb_common.h"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb_common.h"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:401 (find_file)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "file"
+    variable: "pb.h__nano_pb_file"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pb.h"
+    candidate_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/include/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/"
+    searched_directories:
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/include/pb.h"
+      - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr/pb.h"
+      - "/Users/ryosaitoh/Library/Python/3.14/bin/pb.h"
+      - "/opt/homebrew/bin/pb.h"
+      - "/opt/homebrew/sbin/pb.h"
+      - "/usr/local/bin/pb.h"
+      - "/System/Cryptexes/App/usr/bin/pb.h"
+      - "/usr/bin/pb.h"
+      - "/bin/pb.h"
+      - "/usr/sbin/pb.h"
+      - "/sbin/pb.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pb.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pb.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pb.h"
+      - "/opt/pmk/env/global/bin/pb.h"
+      - "/Library/Apple/usr/bin/pb.h"
+      - "/include/pb.h"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/pb.h"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:412 (find_program)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "program"
+    variable: "PROTOBUF_PROTOC_EXECUTABLE"
+    description: "The Google Protocol Buffers Compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "protoc"
+    candidate_directories:
+      - "/vsprojects/Release/"
+      - "/vsprojects/Debug/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/generator-bin/"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/generator/"
+    searched_directories:
+      - "/vsprojects/Release/protoc"
+      - "/vsprojects/Debug/protoc"
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/generator-bin/protoc"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/generator/protoc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/extra/FindNanopb.cmake:442 (find_path)"
+      - "/Users/ryosaitoh/Desktop/git/zephyr/modules/nanopb/nanopb.cmake:10 (find_package)"
+      - "CMakeLists.txt:116 (include)"
+    mode: "path"
+    variable: "NANOPB_GENERATOR_SOURCE_DIR"
+    description: "nanopb generator source"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nanopb_generator.py"
+    candidate_directories:
+      - "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/generator/"
+    found: "/Users/ryosaitoh/Desktop/git/modules/lib/nanopb/generator/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/ryosaitoh/zephyr-sdk-0.16.5/sysroots/arm64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/Users/ryosaitoh/Library/Python/3.14/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+...
