@@ -1,0 +1,75 @@
+cmake:
+  application:
+    configuration-dir: /Users/ryosaitoh/Desktop/git/zmk/app
+    source-dir: /Users/ryosaitoh/Desktop/git/zmk/app
+  board:
+    name: xiao_ble
+    path:
+     - /Users/ryosaitoh/Desktop/git/zephyr/boards/seeed/xiao_ble
+    qualifiers: nrf52840
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - /Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver/dts/bindings
+     - /Users/ryosaitoh/Desktop/git/zmk-rgbled-widget/dts/bindings
+     - /Users/ryosaitoh/Desktop/git/zmk/app/module/dts/bindings
+     - /Users/ryosaitoh/Desktop/git/modules/prospector-zmk-module/dts/bindings
+     - /Users/ryosaitoh/Desktop/git/zmk/app/dts/bindings
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/bindings
+    extra-user-files:
+     - /Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config/cool642tb.keymap
+    files:
+     - /Users/ryosaitoh/Desktop/git/zephyr/boards/seeed/xiao_ble/xiao_ble.dts
+     - /Users/ryosaitoh/Desktop/git/zmk/app/boards/extensions/xiao_ble/xiao_ble.overlay
+     - /Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config/boards/shields/cool642tb/cool642tb_L.overlay
+     - /Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config/cool642tb.keymap
+    include-dirs:
+     - /Users/ryosaitoh/Desktop/git/zmk-pmw3610-driver/dts
+     - /Users/ryosaitoh/Desktop/git/zmk-rgbled-widget/include
+     - /Users/ryosaitoh/Desktop/git/zmk-rgbled-widget/dts
+     - /Users/ryosaitoh/Desktop/git/modules/hal/stm32/dts
+     - /Users/ryosaitoh/Desktop/git/modules/hal/atmel/include
+     - /Users/ryosaitoh/Desktop/git/modules/hal/gigadevice/include
+     - /Users/ryosaitoh/Desktop/git/modules/hal/nuvoton/dts
+     - /Users/ryosaitoh/Desktop/git/zmk/app/module/include
+     - /Users/ryosaitoh/Desktop/git/zmk/app/module/dts
+     - /Users/ryosaitoh/Desktop/git/modules/prospector-zmk-module/include
+     - /Users/ryosaitoh/Desktop/git/modules/prospector-zmk-module/dts
+     - /Users/ryosaitoh/Desktop/git/zmk/app/include
+     - /Users/ryosaitoh/Desktop/git/zmk/app/dts/common
+     - /Users/ryosaitoh/Desktop/git/zmk/app/dts
+     - /Users/ryosaitoh/Desktop/git/zephyr/include
+     - /Users/ryosaitoh/Desktop/git/zephyr/include/zephyr
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/common
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/x86
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/xtensa
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/sparc
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/riscv
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/posix
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/nios2
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/arm64
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/arm
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts/arc
+     - /Users/ryosaitoh/Desktop/git/zephyr/dts
+  kconfig:
+    files:
+     - /Users/ryosaitoh/Desktop/git/zephyr/boards/seeed/xiao_ble/xiao_ble_defconfig
+     - /Users/ryosaitoh/Desktop/git/zmk/app/boards/extensions/xiao_ble/xiao_ble.conf
+     - /Users/ryosaitoh/Desktop/git/zmk/app/prj.conf
+     - /Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config/boards/shields/cool642tb/cool642tb_L.conf
+    user-files:
+     - /Users/ryosaitoh/Desktop/git/zmk/app/prj.conf
+  toolchain:
+    name: zephyr
+    path: /Users/ryosaitoh/zephyr-sdk-0.16.5
+  vendor-specific:
+    nordic:
+      svdfile: /Users/ryosaitoh/Desktop/git/modules/hal/nordic/nrfx/mdk/nrf52840.svd
+  zephyr:
+    version: 4.1.0
+    zephyr-base: /Users/ryosaitoh/Desktop/git/zephyr
+version: 0.1.0
+west:
+  command: /opt/homebrew/bin/west build -p always -b xiao_ble -d build/left -s ../zmk/app -- -DSHIELD=cool642tb_L -DZMK_CONFIG=/Users/ryosaitoh/Desktop/git/zmk-config-cool642tb/config
+  topdir: /Users/ryosaitoh/Desktop/git
+  version: 1.5.0
