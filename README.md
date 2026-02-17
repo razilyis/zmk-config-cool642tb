@@ -3,6 +3,7 @@
 `cool642tb` で DYA Studio 関連機能を使うための導入メモです。
 
 事前にzmk v0.3への対応とconfの設定からlistener設定への修正が必要です。
+
 → https://github.com/razilyis/zmk-config-cool642tb/tree/zmk-v0.3
 
 ## 参照モジュール（URL）
