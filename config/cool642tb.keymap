@@ -68,21 +68,70 @@
     };
 
     behaviors {
-    rsr_vol: rsr_vol {
-        compatible = "zmk,behavior-runtime-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        tap-ms = <20>;
-        cw-binding = <&kp C_VOL_DN>;
-        ccw-binding = <&kp C_VOL_UP>;
-    };
+        lt_to_layer_0: lt_to_layer_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_TO_0";
+            bindings = <&mo>, <&to_layer_0>;
 
-    rsr_pg: rsr_pg {
-        compatible = "zmk,behavior-runtime-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        tap-ms = <20>;
-        cw-binding = <&kp PG_UP>;
-        ccw-binding = <&kp PAGE_DOWN>;
-    };
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+        };
+
+        // エンコーダー：マウススクロール
+
+        rot_msc: sensor_rotate_msc {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            tap-ms = <20>;
+            bindings = <&msc>, <&msc>;
+        };
+
+        // エンコーダー：マウススクロール(MOVE_Y)
+
+        scroll_move_y: sensor_rotate_msc_for_move_y {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc MOVE_Y(20)>, <&msc MOVE_Y(-20)>;
+
+            // tap-ms下限メモ Yの値で可変: Y(15) <81>, Y(20) <65>, Y(25) <49>
+
+            tap-ms = <65>;
+        };
+
+        // エンコーダー：マウススクロール(MOVE_X)
+
+        scroll_move_x: sensor_rotate_msc_for_move_x {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc MOVE_X(20)>, <&msc MOVE_X(-20)>;
+
+            // tap-ms下限メモ Xの値で可変: X(15) <81>, X(20) <65>, X(25) <49>
+
+            tap-ms = <65>;
+
+        rsr_vol: rsr_vol {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            tap-ms = <20>;
+            cw-binding = <&kp C_VOL_DN>;
+            ccw-binding = <&kp C_VOL_UP>;
+        };
+
+        rsr_pg: rsr_pg {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            tap-ms = <20>;
+            cw-binding = <&kp PG_UP>;
+            ccw-binding = <&kp PAGE_DOWN>;
+        };
 };
 
     keymap {
