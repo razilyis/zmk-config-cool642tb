@@ -6,18 +6,14 @@
 
 → https://github.com/razilyis/zmk-config-cool642tb/tree/zmk-v0.3
 
-## 参照モジュール（URL）
+## DYA Studioと参照モジュール（URL）
 
-- runtime-input-processor  
-  https://github.com/cormoran/zmk-module-runtime-input-processor
-- runtime-sensor-rotate  
-  https://github.com/cormoran/zmk-behavior-runtime-sensor-rotate
-- battery-history  
-  https://github.com/cormoran/zmk-module-battery-history
-- ble-management  
-  https://github.com/cormoran/zmk-module-ble-management
-- settings-rpc  
-  https://github.com/cormoran/zmk-module-settings-rpc
+- [DYA Studio](https://studio.dya.cormoran.works/)
+- [runtime-input-processor](https://github.com/cormoran/zmk-module-runtime-input-processor)
+- [runtime-sensor-rotate](https://github.com/cormoran/zmk-behavior-runtime-sensor-rotate)
+- [battery-history](https://github.com/cormoran/zmk-module-battery-history)
+- [ble-management](https://github.com/cormoran/zmk-module-ble-management)
+- [settings-rpc](https://github.com/cormoran/zmk-module-settings-rpc)
 
 ## 1. `config/west.yml` 追記
 
