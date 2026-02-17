@@ -113,13 +113,13 @@ CONFIG_ZMK_SETTINGS_RPC=y
 # Split設定同期の土台（RPC系モジュール共通）
 CONFIG_ZMK_SPLIT_RELAY_EVENT=y
 
-# zmk-behavior-runtime-sensor-rotate
-CONFIG_ZMK_RUNTIME_SENSOR_ROTATE=y
-
 # 設定永続化（複数モジュール共通）
 CONFIG_SETTINGS=y
 CONFIG_ZMK_SETTINGS_SAVE_DEBOUNCE=10000
 ```
+
+※ `CONFIG_ZMK_RUNTIME_SENSOR_ROTATE=y` は Central 側（`cool642tb_R.conf`）のみで有効化する。  
+Peripheral 側（`cool642tb_L.conf`）で有効化すると、ビルド時に `zmk_behavior_queue_add` のリンクエラーが出る場合がある。
 
 ## 4. CI workflow の整合
 
