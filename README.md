@@ -1,6 +1,6 @@
 # compatible_DYAStudio メモ
 
-`cool642tb` で DYA Studio 関連機能を使うための導入メモです。
+`cool642tb` で [DYA Studio](https://studio.dya.cormoran.works/) 関連機能を使うための導入メモです。
 
 事前にzmk v0.3への対応とconfの設定からlistener設定への修正が必要です。
 
