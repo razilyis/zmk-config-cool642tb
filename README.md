@@ -22,8 +22,6 @@ manifest:
   remotes:
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
 
