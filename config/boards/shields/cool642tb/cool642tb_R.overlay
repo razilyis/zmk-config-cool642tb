@@ -16,6 +16,10 @@
 };
 
 / {
+    chosen {
+        zephyr,console = &cdc_acm_uart1;
+    };
+
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
@@ -47,6 +51,12 @@
 };
 
 &xiao_serial { status = "disabled"; };
+
+&zephyr_udc0 {
+    cdc_acm_uart1: cdc_acm_uart1 {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};
 
 &spi0 {
     status = "okay";
