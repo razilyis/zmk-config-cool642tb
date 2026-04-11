@@ -1,4 +1,5 @@
 #include "cool642tb.dtsi"
+#include <input/processors.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -15,10 +16,14 @@
 };
 
 / {
-    trackball_listener {
+    trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
+        scroll {
+            layers = <1>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
 };
 
@@ -53,22 +58,12 @@
 
     trackball: trackball@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,paw3222";
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
-        scroll-layers = <1>;
+        res-cpi = <800>;
     };
 };
 
-// #include <input/processors.dtsi>
-// / {
-//    trackball_listener: trackball_listener {
-//        compatible = "zmk,input-listener";
-//        device = <&trackball>;
-// トラボ使用後10秒間、レイヤー4が有効
-//        input-processors = <&zip_temp_layer 4 10000>;
-//    };
-// };
 
