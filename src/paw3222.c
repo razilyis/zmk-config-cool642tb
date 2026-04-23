@@ -79,7 +79,7 @@ struct paw32xx_data {
     const struct device *dev;
     struct k_work motion_work;
     struct gpio_callback motion_cb;
-    struct k_timer motion_timer; // Add timer for delayed motion checking
+    struct k_timer motion_timer;
 };
 
 // Define a custom sign_extend function to avoid conflict with Zephyr's implementation
@@ -203,6 +203,22 @@ static int paw32xx_read_xy(const struct device *dev, int16_t *x, int16_t *y) {
     return 0;
 }
 
+static bool paw32xx_has_power_gpio(const struct paw32xx_config *cfg) {
+    return cfg->power_gpio.port != NULL;
+}
+
+static int paw32xx_set_interrupt(const struct device *dev, bool enable) {
+    const struct paw32xx_config *cfg = dev->config;
+    int ret = gpio_pin_interrupt_configure_dt(&cfg->irq_gpio,
+                                              enable ? GPIO_INT_LEVEL_ACTIVE : GPIO_INT_DISABLE);
+
+    if (ret < 0) {
+        LOG_ERR("Failed to %s motion interrupt: %d", enable ? "enable" : "disable", ret);
+    }
+
+    return ret;
+}
+
 static void paw32xx_motion_timer_handler(struct k_timer *timer) {
     struct paw32xx_data *data = CONTAINER_OF(timer, struct paw32xx_data, motion_timer);
     k_work_submit(&data->motion_work);
@@ -211,27 +227,26 @@ static void paw32xx_motion_timer_handler(struct k_timer *timer) {
 static void paw32xx_motion_work_handler(struct k_work *work) {
     struct paw32xx_data *data = CONTAINER_OF(work, struct paw32xx_data, motion_work);
     const struct device *dev = data->dev;
-    const struct paw32xx_config *cfg = dev->config;
     uint8_t val;
     int16_t x, y;
     int ret;
 
     ret = paw32xx_read_reg(dev, PAW32XX_MOTION, &val);
     if (ret < 0) {
+        LOG_WRN("Failed to read motion register: %d", ret);
+        paw32xx_set_interrupt(dev, true);
         return;
     }
 
     if ((val & MOTION_STATUS_MOTION) == 0x00) {
-        // No motion detected, re-enable interrupts and wait for next interrupt
-        gpio_pin_interrupt_configure_dt(&cfg->irq_gpio, GPIO_INT_EDGE_TO_ACTIVE);
-
-        if (gpio_pin_get_dt(&cfg->irq_gpio) == 0) {
-            return;
-        }
+        paw32xx_set_interrupt(dev, true);
+        return;
     }
 
     ret = paw32xx_read_xy(dev, &x, &y);
     if (ret < 0) {
+        LOG_WRN("Failed to read motion delta: %d", ret);
+        paw32xx_set_interrupt(dev, true);
         return;
     }
 
@@ -248,15 +263,9 @@ static void paw32xx_motion_handler(const struct device *gpio_dev, struct gpio_ca
                                    uint32_t pins) {
     struct paw32xx_data *data = CONTAINER_OF(cb, struct paw32xx_data, motion_cb);
     const struct device *dev = data->dev;
-    const struct paw32xx_config *cfg = dev->config;
 
-    // Disable interrupts while timer is active
-    gpio_pin_interrupt_configure_dt(&cfg->irq_gpio, GPIO_INT_DISABLE);
-
-    // Cancel any pending timer
+    paw32xx_set_interrupt(dev, false);
     k_timer_stop(&data->motion_timer);
-
-    // Process motion
     k_work_submit(&data->motion_work);
 }
 
@@ -355,10 +364,16 @@ static int paw32xx_configure(const struct device *dev) {
     k_sleep(K_MSEC(RESET_DELAY_MS));
 
     if (cfg->res_cpi > 0) {
-        paw32xx_set_resolution(dev, cfg->res_cpi);
+        ret = paw32xx_set_resolution(dev, cfg->res_cpi);
+        if (ret < 0) {
+            return ret;
+        }
     }
 
-    paw32xx_force_awake(dev, cfg->force_awake);
+    ret = paw32xx_force_awake(dev, cfg->force_awake);
+    if (ret < 0) {
+        return ret;
+    }
 
     // Dummy reads to clear any residual data
     paw32xx_read_reg(dev, PAW32XX_MOTION, &val);
@@ -382,33 +397,25 @@ static int paw32xx_init(const struct device *dev) {
     data->dev = dev;
 
     k_work_init(&data->motion_work, paw32xx_motion_work_handler);
-    // Initialize the timer for delayed motion checks
     k_timer_init(&data->motion_timer, paw32xx_motion_timer_handler, NULL);
 
-#if DT_INST_NODE_HAS_PROP(0, power_gpios)
-    // Initialize power GPIO if defined
-    if (gpio_is_ready_dt(&cfg->power_gpio)) {
-        // Configure as output but start with power OFF
+    if (paw32xx_has_power_gpio(cfg) && gpio_is_ready_dt(&cfg->power_gpio)) {
         ret = gpio_pin_configure_dt(&cfg->power_gpio, GPIO_OUTPUT_INACTIVE);
         if (ret != 0) {
             LOG_ERR("Power pin configuration failed: %d", ret);
             return ret;
         }
 
-        // Wait 0.01 seconds before turning on power
         k_sleep(K_MSEC(10));
 
-        // Now turn on power
         ret = gpio_pin_set_dt(&cfg->power_gpio, 1);
         if (ret != 0) {
             LOG_ERR("Power pin set failed: %d", ret);
             return ret;
         }
 
-        // Wait for power stabilization
         k_sleep(K_MSEC(500));
     }
-#endif
 
     if (!gpio_is_ready_dt(&cfg->irq_gpio)) {
         LOG_ERR("%s is not ready", cfg->irq_gpio.port->name);
@@ -435,11 +442,13 @@ static int paw32xx_init(const struct device *dev) {
         return ret;
     }
 
-    ret = gpio_pin_interrupt_configure_dt(&cfg->irq_gpio, GPIO_INT_EDGE_TO_ACTIVE);
+    ret = paw32xx_set_interrupt(dev, true);
     if (ret != 0) {
         LOG_ERR("Motion interrupt configuration failed: %d", ret);
         return ret;
     }
+
+    k_work_submit(&data->motion_work);
 
     ret = pm_device_runtime_enable(dev);
     if (ret < 0) {
@@ -478,29 +487,24 @@ static int paw32xx_pm_action(const struct device *dev, enum pm_device_action act
             return ret;
         }
 
-#if DT_INST_NODE_HAS_PROP(0, power_gpios)
-        if (gpio_is_ready_dt(&cfg->power_gpio)) {
+        if (paw32xx_has_power_gpio(cfg) && gpio_is_ready_dt(&cfg->power_gpio)) {
             ret = gpio_pin_configure_dt(&cfg->power_gpio, GPIO_DISCONNECTED);
             if (ret < 0) {
                 LOG_ERR("Failed to disconnect power: %d", ret);
                 return ret;
             }
         }
-#endif
         break;
 
     case PM_DEVICE_ACTION_RESUME:
-#if DT_INST_NODE_HAS_PROP(0, power_gpios)
-        if (gpio_is_ready_dt(&cfg->power_gpio)) {
+        if (paw32xx_has_power_gpio(cfg) && gpio_is_ready_dt(&cfg->power_gpio)) {
             ret = gpio_pin_configure_dt(&cfg->power_gpio, GPIO_OUTPUT_ACTIVE);
             if (ret < 0) {
                 LOG_ERR("Failed to enable power: %d", ret);
                 return ret;
             }
-            // Wait for power stabilization
             k_sleep(K_MSEC(10));
         }
-#endif
 
         val = 0;
         ret = paw32xx_update_reg(dev, PAW32XX_CONFIGURATION, CONFIGURATION_PD_ENH, val);
@@ -515,8 +519,7 @@ static int paw32xx_pm_action(const struct device *dev, enum pm_device_action act
             return ret;
         }
 
-        // Re-enable IRQ interrupt
-        ret = gpio_pin_interrupt_configure_dt(&cfg->irq_gpio, GPIO_INT_EDGE_TO_ACTIVE);
+        ret = paw32xx_set_interrupt(dev, true);
         if (ret < 0) {
             LOG_ERR("Failed to enable IRQ interrupt: %d", ret);
             return ret;
