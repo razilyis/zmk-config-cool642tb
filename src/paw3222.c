@@ -62,6 +62,8 @@ LOG_MODULE_REGISTER(paw32xx, CONFIG_ZMK_LOG_LEVEL);
 #define PAW32XX_DATA_SIZE_BITS 8
 
 #define RESET_DELAY_MS 2
+#define MOTION_POLL_INTERVAL_MS 15
+#define MOTION_IDLE_POLL_INTERVAL_MS 30
 
 #define RES_STEP 38
 #define RES_MIN (16 * RES_STEP)
@@ -235,11 +237,13 @@ static void paw32xx_motion_work_handler(struct k_work *work) {
     if (ret < 0) {
         LOG_WRN("Failed to read motion register: %d", ret);
         paw32xx_set_interrupt(dev, true);
+        k_timer_start(&data->motion_timer, K_MSEC(MOTION_IDLE_POLL_INTERVAL_MS), K_NO_WAIT);
         return;
     }
 
     if ((val & MOTION_STATUS_MOTION) == 0x00) {
         paw32xx_set_interrupt(dev, true);
+        k_timer_start(&data->motion_timer, K_MSEC(MOTION_IDLE_POLL_INTERVAL_MS), K_NO_WAIT);
         return;
     }
 
@@ -247,6 +251,7 @@ static void paw32xx_motion_work_handler(struct k_work *work) {
     if (ret < 0) {
         LOG_WRN("Failed to read motion delta: %d", ret);
         paw32xx_set_interrupt(dev, true);
+        k_timer_start(&data->motion_timer, K_MSEC(MOTION_IDLE_POLL_INTERVAL_MS), K_NO_WAIT);
         return;
     }
 
@@ -255,8 +260,7 @@ static void paw32xx_motion_work_handler(struct k_work *work) {
     input_report_rel(data->dev, INPUT_REL_X, x, false, K_FOREVER);
     input_report_rel(data->dev, INPUT_REL_Y, y, true, K_FOREVER);
 
-    // Schedule next check after 15ms without using interrupts
-    k_timer_start(&data->motion_timer, K_MSEC(15), K_NO_WAIT);
+    k_timer_start(&data->motion_timer, K_MSEC(MOTION_POLL_INTERVAL_MS), K_NO_WAIT);
 }
 
 static void paw32xx_motion_handler(const struct device *gpio_dev, struct gpio_callback *cb,
@@ -352,6 +356,7 @@ static int paw32xx_configure(const struct device *dev) {
             continue;
         }
         else {
+            LOG_INF("PAW3222 product id verified: %02x", val);
             break; // Device is ready
         }
     }
@@ -448,6 +453,7 @@ static int paw32xx_init(const struct device *dev) {
         return ret;
     }
 
+    LOG_INF("PAW3222 initialized");
     k_work_submit(&data->motion_work);
 
     ret = pm_device_runtime_enable(dev);
